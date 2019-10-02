@@ -11,6 +11,6 @@ class Project
     backer = Backer.new(backer)
     backer.backed_projects = self 
     @backers << backer
-    @backer
+    @backers
   end
 end
